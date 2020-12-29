@@ -67,14 +67,17 @@ li:nth-child(odd){
 }
 
 .scores{
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 10px;
     
 }
 
 .timer{
-    display: none;
+    /* display: none; */
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 /* h1{

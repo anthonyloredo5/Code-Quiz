@@ -1,9 +1,10 @@
 //list of all questions, choices, and answers
-var questions = [{
+var questions = [
+    {
 
-    title: "Commonly used data types DO NOT include",
-    choices: ["strings", "booleans", "alerts", "numbers"],
-    answer: "alerts",
+    title: "Around how many components are typically used in the average Formula 1 car ?",
+    choices: ["20,000", "40,000", "60,000", "80,000"],
+    answer: "80,000",
 },
 {
     title: "The condition is an if/else statement is enclosed within ______.",
