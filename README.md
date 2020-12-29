@@ -3,8 +3,9 @@ This application is a quiz game that reduces the players available time when an 
 
 ## Screenshot
 
-
+![screenshot](assets/Screen Shot 2020-12-29 at 2.08.35 PM.png)
 
 
 ## Linked to deployed application
 
+https://anthonyloredo5.github.io/Code-Quiz/
