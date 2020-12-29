@@ -3,7 +3,7 @@ This application is a quiz game that reduces the players available time when an 
 
 ## Screenshot
 
-![screenshot](assets/Screen Shot 2020-12-29 at 2.08.35 PM.png)
+![screenshot](https://github.com/anthonyloredo5/Code-Quiz/blob/main/assets/Screen%20Shot%202020-12-29%20at%202.08.35%20PM.png)
 
 
 ## Linked to deployed application
