@@ -12,13 +12,14 @@ var time = 60;
 var correct = 0;
 var questionIndex = 0;
 var startTimer = true;
+var ticker
 
 //Call startQuiz function on button click
 // Cannot be startQuiz(); or it will immediately run
 startBtn.onclick = startQuiz;
 //Starts timer upon entering the quiz
 startBtn.addEventListener("click", function(){
-    var ticker = setInterval(function () {
+    ticker = setInterval(function () {
         
 
         if (time <= 0) {
@@ -34,6 +35,8 @@ startBtn.addEventListener("click", function(){
     }, 1000);
     
 });
+
+
 
 //Function to start quiz
 function startQuiz() {
@@ -78,6 +81,7 @@ function handleChoice(e) {
         questionDiv.setAttribute("class", "hide");
         endScreen.removeAttribute("class");
         // need a way to access ticker varible inside the event listener
+        console.log('TICKER ???', ticker)
         clearInterval(ticker);
 
     }
