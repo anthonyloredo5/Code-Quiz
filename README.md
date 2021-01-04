@@ -8,4 +8,4 @@ This application is a quiz game that reduces the players available time when an 
 
 ## Linked to deployed application
 
-https://anthonyloredo5.github.io/Code-Quiz/
+https://anthonyloredo5.github.io/Quiz-Game/
