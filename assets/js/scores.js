@@ -4,6 +4,8 @@ var hScores = document.getElementById("score");
 var hTime = document.getElementById("time");
 var storedScores = JSON.parse(localStorage.getItem("scores"));
 
+document.getElementById("clear").addEventListener("click", clear);
+
 
 //for loop that builds display
 for(var i = 0; i < storedScores.length; i++){
@@ -23,3 +25,6 @@ for(var i = 0; i < storedScores.length; i++){
     hTime.append(timeD);
 }
 
+function clear(){
+    localStorage.clear();
+}
